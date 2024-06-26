@@ -16,7 +16,7 @@ public class CalcularSalarioVendedor {
         System.out.print("Digite o valor por carro vendido: ");
         double valorPorCarro = scanner.nextDouble();
 
-        double comissaoFixaPorCarro = 100.0; // Assumindo uma comissão fixa de 100 por carro
+        double comissaoFixaPorCarro = 100.0; 
 
         double salarioFinal = salarioFixo + (numCarrosVendidos * valorPorCarro) + (0.05 * valorTotalVendas) + (numCarrosVendidos * comissaoFixaPorCarro);
 
